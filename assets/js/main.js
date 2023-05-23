@@ -219,6 +219,8 @@
 
   });
 
+
+  
   /**
    * Initiate portfolio lightbox 
    */

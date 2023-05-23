@@ -92,7 +92,7 @@ function checkInputs() {
     } else if (!fullnameRegex.test(fullnameValue) & !fullnameRegex2.test(fullnameValue)) {
         setErrorFor(fullname, 'Invalid name format. Should contain 2 names with at least 3 letters and a space to separate them');
     } else if (!fullnameRegex.test(fullnameValue) & fullnameRegex2.test(fullnameValue)){
-        setErrorFor(fullname, 'both names should have a minimum of 3 letters')
+        setErrorFor(fullname, 'Invalid name format. Should contain 2 names with at least 3 letters and a space to separate them')
     }
     else {
         setSuccessFor(fullname);

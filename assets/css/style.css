@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #eb8e73;
   text-decoration: none;
 }
 
@@ -61,6 +61,7 @@ h6 {
   animation: animate-preloader 1s linear infinite;
 }
 
+
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
@@ -95,7 +96,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #df8323;
   color: #fff;
 }
 
@@ -199,7 +200,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #31a9e1;
+  background: #e18331;
 }
 
 .navbar .dropdown ul {
@@ -422,7 +423,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #d87e20;
 }
 
 #hero .btn-watch-video {
@@ -666,7 +667,7 @@ section {
 
 .why-us .content p {
   font-size: 15px;
-  color: #848484;
+  color: #d3a584;
 }
 
 .why-us .img {
@@ -730,7 +731,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: #9e8c7e;
 }
 
 .why-us .accordion-list a.collapsed:hover {
@@ -1292,7 +1293,7 @@ section {
 }
 
 .pricing .featured .buy-btn:hover {
-  background: #23a3df;
+  background: #df8323;
 }
 
 @media (max-width: 992px) {
@@ -1402,6 +1403,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact-btn:hover{
+  background-color: #df8323;
+}
+
 .contact .info {
   border-top: 3px solid #F0892D;
   border-bottom: 3px solid #F0892D;
@@ -1437,7 +1442,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #ba8e61;
 }
 
 .contact .info .email p {
@@ -1451,7 +1456,7 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #997f6b;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1611,6 +1616,7 @@ section {
   color: #D87D4A;
 }
 
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -1689,7 +1695,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #209dd8;
+  background: #d87820;
 }
 
 #footer .footer-top {
@@ -1716,7 +1722,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: #9e8c7e;
 }
 
 #footer .footer-top h4 {
@@ -1755,7 +1761,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #d18c61;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1782,7 +1788,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #df8323;
   color: #fff;
   text-decoration: none;
 }
